@@ -2,8 +2,6 @@ import streamlit as st
 from loading import predict_and_view
 import csv
 import os
-import mysql.connector
-from mysql.connector import Error
 import pandas as pd
 
 st.markdown("<h1 style='text-align: center'>Food Vision</h1>", unsafe_allow_html=True)
